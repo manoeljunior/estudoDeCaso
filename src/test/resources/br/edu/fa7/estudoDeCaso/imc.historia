@@ -1,0 +1,18 @@
+Funcionalidade Cálculo do Índice de Massa Córporea
+
+Narrativa: Como um usuario do sistema, desejo calcular o IMC, de modo que possa melhorar a qualidade de vida 
+
+Dados as Histórias: br/edu/fa7/estudoDeCaso/login.historia#{id1:usuario_valido}
+
+Cenário: Calculo normal do IMC 
+Dado que esteja na tela de Cálculo do IMC
+Quando informar o peso <peso>
+E informar a altura <altura> 
+Então o IMC calculado é <imc> 
+E o sistema apresenta a mensagem <mensagem>
+
+Exemplos:
+|peso  |altura|imc  |mensagem            |
+|60.00 |1.90  |16.62|Muito abaixo do peso|
+|75.00 |1.80  |23.14|Peso normal         |
+|120.00|1.95  |31.55|Obesidade I         |

@@ -1,0 +1,20 @@
+Login do sistema
+
+Narrativa: A tela de login será responsável por impedir que pessoas não autorizadas tenham acesso ao sistema de operações financeiras
+
+Cenário: Usuário válido
+Meta: @id1 usuario_valido
+ 
+Dado que esteja na tela de Login
+Quando informar o nome Sofia
+Quando informar a senha qwerty
+E efetuar o login
+Então o sistema apresenta a tela Cálculo do IMC
+
+Cenário: Usuário/senha inválidos
+
+Dado que esteja na tela de Login
+Quando informar o nome Junior
+Quando informar a senha 123456
+E efetuar o login
+Então o sistema apresenta a mensagem Usuário/senha inválidos

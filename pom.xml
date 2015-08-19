@@ -8,6 +8,10 @@
   	<name>estudoDeCaso Maven Webapp</name>
   	<url>http://maven.apache.org</url>
   	
+  	<properties>
+  		<meta.filter></meta.filter>	
+  	</properties>
+  	
   	<dependencies>
 		<dependency>
       		<groupId>junit</groupId>
@@ -141,6 +145,9 @@
 		              		</includes>
 		              		<ignoreFailureInStories>true</ignoreFailureInStories>
 		              		<ignoreFailureInView>false</ignoreFailureInView>
+		              		<metaFilters>
+		              			<metaFilter>${meta.filter}</metaFilter>
+		              		</metaFilters>
 		           		</configuration>
 		           		<goals>
 		              		<goal>run-stories-as-embeddables</goal>

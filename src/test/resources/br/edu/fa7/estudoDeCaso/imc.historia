@@ -1,5 +1,8 @@
 Funcionalidade Cálculo do Índice de Massa Córporea
 
+Meta:
+@id2 imc
+
 Narrativa: Como um usuario do sistema, desejo calcular o IMC, de modo que possa melhorar a qualidade de vida 
 
 Dados as Histórias: br/edu/fa7/estudoDeCaso/login.historia#{id1:usuario_valido}

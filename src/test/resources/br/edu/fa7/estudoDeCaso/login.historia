@@ -1,5 +1,8 @@
 Login do sistema
 
+Meta:
+@status wip
+
 Narrativa: A tela de login será responsável por impedir que pessoas não autorizadas tenham acesso ao sistema de operações financeiras
 
 Cenário: Usuário válido
